@@ -28,6 +28,12 @@ body{
     border-radius: 4px;
 }
 
+@media (min-width: 1400px) {
+    #headshot{
+        max-width: calc(400px + 2rem);
+    }
+}
+
 #about-headshot{
     width: 100%;
     max-width: 375px;
@@ -212,11 +218,15 @@ a{
 }
 
 .coin-photo-4{
-    height: 451.94px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100%;
     /* background-color: black; */
+}
+
+.coin-carousel-inner{
+    aspect-ratio: 1.3;
 }
 
 .nav-item{
