@@ -1,0 +1,208 @@
+{
+    "stories": {
+        "editorial": [
+            {
+                "title": "The Power of Community: Nic Altenderfer's Story",
+                "type": "PROFILE",
+                "image": "NicAltenderfer.png",
+                "link": "https://www2.lehigh.edu/news/the-power-of-community-a-lehigh-student-suffers-a-skateboarding-head-injury-and-his-sigma-phi"
+            },
+            {
+                "title": "Lit Coffee Roastery and Bakeshop: A South Side community hub",
+                "type": "COMMUNITY BUSINESS FEATURE",
+                "image": "lit.png",
+                "link": "https://thebrownandwhite.com/2022/03/09/lit-a-southside-community-hub/"
+            },
+            {
+                "title": "From the Editor's Desk: Nothing groundbreaking",
+                "type": "OPINION",
+                "image": "desk.png",
+                "link": "https://thebrownandwhite.com/2023/05/09/nothing-groundbreaking/"
+            },
+            {
+                "title": "Meet Adam King: Dreaming in Sneakers",
+                "type": "PROFILE",
+                "image": "Adam.png",
+                "link": "https://www.emorybusiness.com/2023/07/26/meet-adam-king-dreaming-in-sneakers/"
+            },
+            {
+                "title": "Onondaga County sees rise in substance abuse, mental health crises",
+                "type": "NEWS FEATURE",
+                "image": "Onondaga.png",
+                "link": "https://www.thenewshouse.com/off-campus/onondaga-county-sees-rise-in-substance-abuse-mental-health-crises/"
+            },
+            {
+                "title": "Beauty and Wellness Entrepreneurs Thrive through Purpose",
+                "type": "BUSINESS FEATURE",
+                "image": "Beauty.png",
+                "link": "https://www.emorybusiness.com/2022/03/01/beauty-and-wellness-entrepreneurs-thrive-through-purpose-passion-pivots-and-meaningful-products/"
+            },
+            {
+                "title": "The AI Revolution: Opportunity, Ethics, & Impact",
+                "type": "SCIENCE FEATURE",
+                "image": "ai.png",
+                "link": "https://www.emorybusiness.com/2022/10/18/the-ai-revolution-opportunity-ethics-impact/"
+            },
+            {
+                "title": "Students explore history and heritage through art mediums",
+                "type": "ART FEATURE",
+                "image": "Afiwa.png",
+                "link": "https://thebrownandwhite.com/2022/03/10/students-explore-heritage-through-art-mediums/"
+            },
+            {
+                "title": "How to complete coursework with COVID-19",
+                "type": "NEWS FEATURE",
+                "image": "covid.png",
+                "link": "https://thebrownandwhite.com/2021/09/15/how-to-complete-coursework-with-covid-19/"
+            },
+            {
+                "title": "Lehigh alumna's firsthand account of the Russo-Ukrainian War",
+                "type": "NEWS AS-TOLD-TO",
+                "image": "ukraine.png",
+                "link": "https://thebrownandwhite.com/2022/04/30/alumna-gives-firsthand-account-of-war-in-ukraine/"
+            },
+            {
+                "title": "Four men charged in hate crime at Lehigh",
+                "type": "BREAKING NEWS",
+                "image": "hate.png",
+                "link": "https://thebrownandwhite.com/2023/04/26/four-men-charged-in-hate-crime-at-lehigh/"
+            },
+            {
+                "title": "Finding My Way Back Home: My Reverse Transfer Story",
+                "type": "OPINION",
+                "image": "reverse.png",
+                "link": "https://thefitmagazine.wordpress.com/2021/11/29/finding-my-way-back-home-my-reverse-transfer-story/"
+            }
+        ],
+        "academic": [
+            {
+                "title": "THE FUTURE OF ROLLING STONE AND THE ENTERTAINMENT MAGAZINE",
+                "type": "SENIOR THESIS",
+                "image": "rolling.png",
+                "link": "https://media.muckrack.com/portfolio/items/16413893/Future_of_Rolling_Stone_-_Christina_Perrier.pdf"
+            }
+        ]
+    },
+    "social_media": [
+        {
+            "title": "LUAG “What Matters Most”",
+            "type": "instagram story",
+            "image": "luag/thumbnail.png", 
+            "media": "luag/WHAT_MATTERS_MOST_IG_STORY.pdf"
+        }
+    ],
+    "photography": [
+        {
+            "title": "COIN, REBECCA BLACK CONCERT",
+            "description": "COIN headlined Lehigh University Productions' QUEST 2023 Spring Concert on April 22, 2023, in Stabler Area. Rebecca Black was the opening act.",
+            "images": [
+                "coin/4.JPG",
+                "coin/2.JPG",
+                "coin/3.JPG",
+                "coin/1.JPG"
+            ]
+        },
+        {
+            "title": "STUDENT WEIGHTLIFTER JOSS DUFF",
+            "description": "Lehigh student Joss Duff, '23, balanced a rigorous college course load with a disciplined passion for weightlifting.",
+            "images": [
+                "joss/4.JPG",
+                "joss/1.JPG",
+                "joss/2.JPG",
+                "joss/3.JPG"
+            ]
+        },
+        {
+            "title": "LIFE AT LEHIGH",
+            "description": "The Lehigh University Center, which houses a retail dining store and dining hall, closed for renovations in spring 2023. Its construction led to long lines and wait times at the other limited campus dining options and obstructed some students' path to and from class.",
+            "images": [
+                "lehigh/1.JPG",
+                "lehigh/2.JPG",
+                "lehigh/3.JPG",
+                "lehigh/4.JPG"
+            ]
+        }
+    ],
+    "multimedia_created_for": [
+        {
+            "pub": "Lehigh University",
+            "link": "https://www.instagram.com/lehighu/?hl=en"
+        },
+        {
+            "pub": "The Brown and White",
+            "link": "https://thebrownandwhite.com/"
+        },
+        {
+            "pub": "New York Junior Tennis and Learning",
+            "link": "https://www.instagram.com/nyjtl/"
+        },
+        {
+            "pub": "InPickleball Magazine",
+            "link": "https://www.instagram.com/inpickleball/"
+        }
+    ],
+    "appears_in": [
+        {
+            "pub": "Harper's Bazaar",
+            "link": "https://www.harpersbazaar.com/author/276613/christina-perrier/"
+        },
+        {
+            "pub": "The Brown and White",
+            "link": "https://thebrownandwhite.com/author/csp223/"
+        },
+        {
+            "pub": "Emory Business",
+            "link": "https://www.emorybusiness.com/author/christina-perrier/"
+        },
+        {
+            "pub": "The Fit Magazine",
+            "link": "https://thefitmagazine.com/author/christinaperrier/"
+        },
+        {
+            "pub": "The NewsHouse",
+            "link": "https://www.thenewshouse.com/"
+        },
+        {
+            "pub": "Lehigh News",
+            "link": "https://www2.lehigh.edu/news"
+        },
+        {
+            "pub": "Lehigh Alumni Relations",
+            "link": "https://alumni.lehigh.edu/faces-lehigh"
+        },
+        {
+            "pub": "Don't Count Us Out Yet",
+            "link": "https://substack.com/profile/107867121-christina-perrier"
+        },
+        {
+            "pub": "The Floating Hospital",
+            "link": "https://www.thefloatinghospital.org/news-and-events/newsletter-archive/"
+        },
+        {
+            "pub": "New York Junior Tennis and Learning",
+            "link": "https://www.nyjtl.org/media/news/"
+        }
+    ],
+    "about": {
+        "paragraphs": [
+            "Hi there! I'm Christina — a masterful writer, editor, and communicator who values precision, accuracy, nuance, and style. My expertise spans across print, digital, and social media formats.",
+            "I am a passion-driven individual with a never-stop-learning attitude who thrives in collaborative spaces. Native to the newsroom, I am an efficient worker and natural leader in high-pressure, fast-paced environments.",
+            "I earned a Bachelor of Arts degree in journalism from Lehigh University, where I graduated magna cum laude in 2023. While at Lehigh, I served as a five-time editor for <i>The Brown and White</i>, where I ended my tenure as Editor-in-Chief. In my young career, I have written and/or produced content for more than 10 publications and organizations.",
+            "The hats I don are not confined to professional fashion. I am a music enthusiast, highly skilled in playlist curation but also devoted to the art of the album; a lover of literature, adept in setting ambitious reading goals; an experimental cook and mixologist, proficient in measuring with the heart (when appropriate); and a coffee connoisseur with a predilection for the French press and small cafés. I am a New York native, ambitious dreamer, and believer in kindness and compassion."
+        ]
+    },
+    "tracks": [
+        "https://open.spotify.com/embed/track/5Oi17lFkduMXGUl8yAk6Rm?utm_source=generator",
+        "https://open.spotify.com/embed/track/0XrPZPotxZNDkuvauuVO8R?utm_source=generator",
+        "https://open.spotify.com/embed/track/0iINibMKtoS8duvexsqnm5?utm_source=generator", 
+        "https://open.spotify.com/embed/track/3WfSNAoj2D8C9noPSGZZFM?utm_source=generator",
+        "https://open.spotify.com/embed/track/3k79jB4aGmMDUQzEwa46Rz?utm_source=generator",
+        "https://open.spotify.com/embed/track/4fY6EU3jUQQISiUR8DLXuM?utm_source=generator",
+        "https://open.spotify.com/embed/track/1zQiK0HaNo8mPMo89W8hlK?utm_source=generator"
+    ],
+    "linkedin": "https://www.linkedin.com/in/christina-perrier",
+    "muckrack": "https://muckrack.com/christina_perrier",
+    "email": "christinahsperrier@gmail.com",
+    "name": "Christina Perrier",
+    "resume_gdrive_id": "1J8Qv2Qu3zD-UzCTvhvDXJktECwBhyrex"
+}

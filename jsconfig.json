@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "baseUrl": "app",
+    "jsx": "preserve",
+    "checkJs": true
+  },
+  "exclude": ["node_modules", "build", "dist", "lib", ".next"]
+}
