@@ -1,6 +1,7 @@
 import PhotoCarousel from '@/components/PhotoCarousel'
 // @ts-ignore
 import config from '../../config.json'
+import { text_font } from '../../fonts'
 
 const social_media = (
     title,
@@ -9,7 +10,7 @@ const social_media = (
     media
 ) => {
     return <>
-        <div className="masonry-item">
+        <div className={`masonry-item ${text_font.className}`}>
             <div className="card overflow-hidden masonry-content">
                 <img src={`/multimedia/${image}`} alt="..." />
                 <div className="card-body">
@@ -36,10 +37,12 @@ const photography = (
     images
 ) => {
     return <>
-        <h4 className="color-1 my-2">{title}</h4>
-        <p className="color-1">{description}</p>
-        <div className="d-flex justify-content-center mb-4">
-            <PhotoCarousel photos={images} />
+        <div className={`${text_font.className}`}>
+            <h4 className="color-1 my-2">{title}</h4>
+            <p className="color-1">{description}</p>
+            <div className="d-flex justify-content-center mb-4">
+                <PhotoCarousel photos={images} />
+            </div>
         </div>
     </>
 }
@@ -52,11 +55,11 @@ export default function Multimedia(){
             </div>
             <h2 className="color-1 my-3 mt-4 fw-bold">Photography</h2>
             {config.photography.map(photos => photography(photos.title, photos.description, photos.images))}
-            <h6 className="text-center color-1 mt-5 m-auto lh-base" style={{maxWidth: '850px'}}>
+            <h6 className={`text-center color-1 mt-5 m-auto lh-base ${text_font.className}`} style={{maxWidth: '850px'}}>
                 Created for:&nbsp;
                 {config.multimedia_created_for.map((pub, i) => <>
                     <a href={pub.link} target="_blank" rel="noopener noreferrer">{pub.pub}</a>
-                    {i !== config.appears_in.length - 1 ? <>,&nbsp; </> : ''}
+                    {i !== config.multimedia_created_for.length - 1 ? <>,&nbsp; </> : ''}
                 </>)}
             </h6>
     </>

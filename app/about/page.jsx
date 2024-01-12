@@ -1,6 +1,7 @@
 import Tracks from '@/components/Tracks'
 // @ts-ignore
 import config from '../config.json'
+import { text_font } from '@/fonts'
 
 export default function About(){
     const musicCarouselStyle = {
@@ -10,12 +11,12 @@ export default function About(){
         <div className="pt-3">
             <div className="row">
                 <div className="col col-12">
-                <h1 className="display-4 color-1 text-center text-md-start">About</h1>
+                    <h1 className="display-4 color-1 text-center text-md-start mb-4">About Me</h1>
                 </div>
             </div>
             <div className="row">
-                <div className="col col-12 col-lg-12">
-                    {config.about.paragraphs.map(p => <p className="color-1 fw-light about-text" dangerouslySetInnerHTML={{__html: p}} />)}
+                <div className={`${text_font.className} col col-12 col-lg-12`}>
+                    {config.about.paragraphs.map(p => <p className="color-1 fw-normal about-text" dangerouslySetInnerHTML={{__html: p}} />)}
                 </div>
             </div>
             {/* <div className="row">

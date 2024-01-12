@@ -4,11 +4,12 @@ import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react";
 import { Button, Nav, Navbar, Offcanvas } from "react-bootstrap"
-import { PenFill, HouseFill, CardImage, InfoCircleFill, Linkedin, List } from "react-bootstrap-icons";
+import { PenFill, FileEarmarkPdfFill , HouseFill, CardImage, InfoCircleFill, Linkedin, List } from "react-bootstrap-icons";
 import { Roboto_Mono } from 'next/font/google'
 import MuckRack from "./MuckRack";
 // @ts-ignore
 import config from '../config.json'
+import { text_font } from '../fonts'
 
 const roboto_mono = Roboto_Mono({
     subsets: ['latin'],
@@ -27,7 +28,7 @@ export default function HeaderOffcanvas(props){
         <Button className={`d-${props.breakpoint}-none`} variant=""  onClick={handleToggle} aria-label="Menu Bar">
             <List width="1.6em" height="1.5em" />
         </Button>
-        <Offcanvas show={show} onHide={handleClose} className={`d-${props.breakpoint}-none`} responsive={props.breakpoint} placement="end">
+        <Offcanvas show={show} onHide={handleClose} className={`d-${props.breakpoint}-none ${text_font.className}`} responsive={props.breakpoint} placement="end">
             <Offcanvas.Header closeButton className="pb-0 px-4">
                 <Offcanvas.Title className={`${roboto_mono.className} text-white fw-bold`}>
                     <Image src="/logo.png" alt={config.name} width={52} height={52} />
@@ -39,6 +40,7 @@ export default function HeaderOffcanvas(props){
                     {[
                         {"name": "Home", "link": "/", "icon": <HouseFill /> },
                         {"name": "About", "link": "/about", "icon": <InfoCircleFill /> },
+                        {"name": "Resume", "link": "/resume", "icon": <FileEarmarkPdfFill  /> },
                         {"name": "Writing", "link": "/portfolio/writing", "icon": <PenFill /> },
                         {"name": "Multimedia", "link": "/portfolio/multimedia", "icon": <CardImage /> },
                     ].map((val, i) => <>

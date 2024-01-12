@@ -1,5 +1,6 @@
 // @ts-ignore
 import config from '../../config.json'
+import { text_font } from '../../fonts'
 
 const card = (
     title,
@@ -13,7 +14,7 @@ const card = (
                 <a href={link} className="" target="_blank" rel="noopener noreferrer">
                     <img className="mw-100" src={`/stories/${image}`} alt="..." />
                 </a>
-                <div className="card-body">
+                <div className={`card-body ${text_font.className}`}>
                     <h5 className="card-title fw-bold">{title}</h5>
                     <div className="d-flex justify-content-between align-items-center">
                         <h6 className="card-subtitle m-0 color-1">{type}</h6>
@@ -41,8 +42,8 @@ export default function Writing(){
         <div className="portfolio-grid">
             {config.stories.academic.map(story => card(story.title, story.type, story.image, story.link))}
         </div>
-        <h6 className="text-center color-1 mt-5 m-auto lh-base gap-3" style={{maxWidth: '800px'}}>
-            <span className="fw-bold">Like my work? See more on my 
+        <h6 className={`text-center color-1 mt-5 m-auto lh-base gap-3 ${text_font.className}`} style={{maxWidth: '800px'}}>
+            <span className="fw-normal">Like my work? See more on my 
             <a href="https://muckrack.com/christina_perrier" className="d-inline-block" target="_blank" rel="noopener noreferrer">&nbsp;Muck Rack</a>!</span>
             <br />
             <br />

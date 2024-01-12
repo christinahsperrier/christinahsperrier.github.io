@@ -8,7 +8,7 @@
 // 2. Include any default variable overrides here
 $primary: #607F4C; //#6b35ff;//#390eb0;
 $body-bg: #FBF5E9;
-$footer-bg: #4D663D;
+$footer-bg: shade-color($primary, 70%); //#4D663D;
 // $secondary: tint-color($body-bg-dark, 30%);
 // $body-tertiary-bg-dark: tint-color($body-bg-dark, 1%);
 // $body-secondary-color-dark: tint-color($body-bg-dark, 70%);
@@ -66,8 +66,9 @@ $card-border-width: 0px;
 }
 
 .navbar{
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.05), inset 0 0 0 rgba(255,255,255,0.05);
+    // box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.025), inset 0 0 0 rgba(255,255,255,0.025);
     // background-image: linear-gradient(rgba($primary, 1), rgba($primary, 0.95));
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     background-color: $body-bg;
     position: fixed !important;
 }

@@ -1,7 +1,6 @@
 import Script from 'next/script'
 import Image from 'next/image'
 import './globals.scss'
-import { Phudu } from 'next/font/google'
 import { EnvelopeFill, FileEarmarkPdfFill, Linkedin, UniversalAccessCircle } from 'react-bootstrap-icons'
 import MuckRack from './components/MuckRack'
 import Link from 'next/link'
@@ -11,8 +10,7 @@ import HeaderOffcanvas from './components/HeaderOffcanvas'
 import PortfolioDropdown from './components/PortfolioDropdown'
 // @ts-ignore
 import config from './config.json'
-
-const phudu = Phudu({ subsets: ['latin'] })
+import { header_font, text_font } from './fonts'
 
 export const metadata = {
   title: 'Christina Perrier - Portfolio Website',
@@ -35,10 +33,10 @@ export default function RootLayout({ children }) {
             gtag('config', '${process.env.GA4_CODE}');
         `}
       </Script> */}
-      <body className={`${phudu.className} vh-100 d-flex flex-column pt-5`}>
+      <body className={`${header_font.className} vh-100 d-flex flex-column pt-5`}>
         <header className={`navbar navbar-expand-${mobileBreakpoint} fixed-top`}>
           <nav className="container">
-            <Link href="/" className={`navbar-brand ${phudu.className}`}>
+            <Link href="/" className={`navbar-brand ${header_font.className}`}>
               <Image src="/logo.png" alt={`${config.name}`} width={52} height={52} />
             </Link>
             <div className={`d-none d-${mobileBreakpoint}-block navbar-collapse`}>
@@ -83,7 +81,7 @@ export default function RootLayout({ children }) {
                 <div className="row">
                   <div className="col-8 col-md-12">
                     <div className="h3 m-0">{config.name}</div>
-                    <div className="h6 mb-1 mb-sm-3 fw-light">Multiskilled Communicator</div>
+                    <div className={`h6 mb-1 mb-sm-3 fw-light ${text_font.className}`}>{config.title}</div>
                   </div>
                   <div className="col-4 d-flex align-items-center align-items-md-start">
                     <span className="h4 d-inline-flex gap-4 ps-1">
@@ -99,7 +97,7 @@ export default function RootLayout({ children }) {
               </div>
               <div className={`col col-12 col-${footerBreakpoint}-6 col-lg-4`}>
                 <div className="h4">Sitemap</div>
-                <div className="row">
+                <div className={`row ${text_font.className}`}>
                   <div className="col col-6 gap-2 d-flex flex-column">
                     <span className="d-flex"><Link href="/" className="text-white fw-light d-inline-flex" tabIndex={0} role="link" aria-label="Home">Home</Link></span>
                     <span className="d-flex"><Link href="/portfolio/writing" className="text-white fw-light d-inline-flex" tabIndex={0} role="link" aria-label="Projects">Writing</Link></span>
@@ -112,7 +110,7 @@ export default function RootLayout({ children }) {
               </div>
               <div className={`col col-12 col-${footerBreakpoint}-6 col-lg-2`}>
                 <div className="h4">Resources</div>
-                <div className="row row-gap-2">
+                <div className={`row row-gap-2 ${text_font.className}`}>
                   <div className="col col-lg-12">
                     <span>
                       <a href={`https://drive.google.com/uc?export=download&id=${config.resume_gdrive_id}`} 

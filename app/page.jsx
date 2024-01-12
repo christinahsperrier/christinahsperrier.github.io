@@ -6,7 +6,7 @@ export default function Home() {
     <div className="container flex-grow-1">
       <div className="row">
         <div className="col col-12">
-          <h1 className="display-1 fw-bold color-1 text-center text-md-start mb-2">Christina Perrier</h1>
+          <h1 className="display-1 fw-bold color-1 text-center text-md-start mt-3 mb-4">Christina Perrier</h1>
         </div>
       </div>
       <div className="row">
