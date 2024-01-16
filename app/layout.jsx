@@ -74,13 +74,13 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         <main className="flex-grow-1 container" style={{paddingTop: "2.25rem"}}>{children}</main>
-        <footer className="mt-5" data-bs-theme="dark">
+        <footer className="mt-5" >
           <div className="container py-4">
             <div className="row row-gap-3">
               <div className={`col col-12 col-${footerBreakpoint}-6 col-lg-3 d-flex flex-column`}>
                 <div className="row">
                   <div className="col-8 col-md-12">
-                    <div className="h3 m-0">{config.name}</div>
+                    <div className="h3 m-0 text-primary">{config.name}</div>
                     <div className={`h6 mb-1 mb-sm-3 fw-light ${text_font.className}`}>{config.title}</div>
                   </div>
                   <div className="col-4 d-flex align-items-center align-items-md-start">
@@ -96,26 +96,26 @@ export default function RootLayout({ children }) {
                 </div>
               </div>
               <div className={`col col-12 col-${footerBreakpoint}-6 col-lg-4`}>
-                <div className="h4">Sitemap</div>
+                <div className="h4 text-primary">Sitemap</div>
                 <div className={`row ${text_font.className}`}>
                   <div className="col col-6 gap-2 d-flex flex-column">
-                    <span className="d-flex"><Link href="/" className="text-white fw-light d-inline-flex" tabIndex={0} role="link" aria-label="Home">Home</Link></span>
-                    <span className="d-flex"><Link href="/portfolio/writing" className="text-white fw-light d-inline-flex" tabIndex={0} role="link" aria-label="Projects">Writing</Link></span>
+                    <span className="d-flex"><Link href="/" className="text-black fw-light d-inline-flex" tabIndex={0} role="link" aria-label="Home">Home</Link></span>
+                    <span className="d-flex"><Link href="/about" className="text-black fw-light d-inline-flex" tabIndex={0} role="link" aria-label="About">About</Link></span>
                   </div>
                   <div className="col col-6 gap-2 d-flex flex-column">
-                    <span className="d-flex"><Link href="/about" className="text-white fw-light d-inline-flex" tabIndex={0} role="link" aria-label="About">About</Link></span>
-                    <span className="d-flex"><Link href="/portfolio/multimedia" className="text-white fw-light d-inline-flex" tabIndex={0} role="link" aria-label="Resume">Multimedia</Link></span>
+                    <span className="d-flex"><Link href="/portfolio/writing" className="text-black fw-light d-inline-flex" tabIndex={0} role="link" aria-label="Projects">Writing</Link></span>
+                    <span className="d-flex"><Link href="/portfolio/multimedia" className="text-black fw-light d-inline-flex" tabIndex={0} role="link" aria-label="Resume">Multimedia</Link></span>
                   </div>
                 </div>
               </div>
               <div className={`col col-12 col-${footerBreakpoint}-6 col-lg-2`}>
-                <div className="h4">Resources</div>
+                <div className="h4 text-primary">Resources</div>
                 <div className={`row row-gap-2 ${text_font.className}`}>
                   <div className="col col-lg-12">
                     <span>
                       <a href={`https://drive.google.com/uc?export=download&id=${config.resume_gdrive_id}`} 
                         download={`${config.name.split(" ").join("_")}_Resume.pdf`}
-                        className="text-white fw-light d-inline-flex align-items-center" tabIndex={0} role="link" aria-label="Download Resume">
+                        className="text-black fw-light d-inline-flex align-items-center" tabIndex={0} role="link" aria-label="Download Resume">
                         Resume<FileEarmarkPdfFill className="ms-1" />
                       </a>
                     </span>
@@ -123,7 +123,7 @@ export default function RootLayout({ children }) {
                 </div>
               </div>
               <div className={`col col-12 col-${footerBreakpoint}-6 col-lg-3`}>
-                <div className="h4">Contact</div>
+                <div className="h4 text-primary">Contact</div>
                 <div className="row">
                   <div className="col">
                     <CopyTextInput />

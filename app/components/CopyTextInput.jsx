@@ -26,14 +26,14 @@ export default function CopyTextInput(){
                     type="text"
                     size="sm"
                     value={config.email}
-                    className={`border-light focus-ring focus-ring-light rounded-start-5 ps-4 pe-2 bg-footer`}
+                    className={`border-primary focus-ring focus-ring-primary rounded-start-5 ps-4 pe-2 bg-footer`}
                     style={{
                         paddingTop: "0.75rem",
                         paddingBottom: "0.75rem"
                     }}
                     readOnly
                 />
-                <Button variant="outline-light" onClick={copy} className="rounded-end-5 ps-3 pe-4" role="button" aria-label="Copy Email to Clipboard">
+                <Button variant="outline-primary" onClick={copy} className="rounded-end-5 ps-3 pe-4" role="button" aria-label="Copy Email to Clipboard">
                     <span className="fs-5 d-flex">
                     {copied ? <ClipboardCheckFill /> : <Clipboard /> }
                     </span>
