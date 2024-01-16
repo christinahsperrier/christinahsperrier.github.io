@@ -7,7 +7,8 @@ const social_media = (
     title,
     type,
     image,
-    media
+    media,
+    link
 ) => {
     return <>
         <div className={`masonry-item ${text_font.className}`}>
@@ -17,7 +18,7 @@ const social_media = (
                     <h5 className="card-title fw-bold">{title}</h5>
                     <div className="d-flex justify-content-between align-items-center">
                         <h6 className="card-subtitle m-0 color-1">{type}</h6>
-                        <a href={`/multimedia/${media}`} className="d-flex align-items-center view-story ms-2" target="_blank" rel="noopener noreferrer">
+                        <a href={link ? link : `/multimedia/${media}`} className="d-flex align-items-center view-story ms-2" target="_blank" rel="noopener noreferrer">
                             <span className="me-1">View media</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
@@ -51,7 +52,7 @@ export default function Multimedia(){
     return <>
         <h2 className="color-1 my-3 fw-bold">Social Media</h2>
             <div className="portfolio-grid">
-                {config.social_media.map(social => social_media(social.title, social.type, social.image, social.media))}
+                {config.social_media.map(social => social_media(social.title, social.type, social.image, social.media, social.link))}
             </div>
             <h2 className="color-1 my-3 mt-4 fw-bold">Photography</h2>
             {config.photography.map(photos => photography(photos.title, photos.description, photos.images))}
