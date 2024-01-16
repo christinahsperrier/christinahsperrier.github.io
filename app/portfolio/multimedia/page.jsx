@@ -56,7 +56,7 @@ export default function Multimedia(){
             {config.social_media.map(social => social_media(social.title, social.type, social.image, social.media, social.link))}
         </div>
         <h2 className="color-1 mt-3 mb-1 mt-4 fw-bold">Photography</h2>
-        <h6 className={`mb-3 fw-normal ${text_font.className}`}>{config.stories.editorial_subheader}</h6>
+        <h6 className={`mb-3 fw-normal ${text_font.className}`}>Selected Work</h6>
         {config.photography.map(photos => photography(photos.title, photos.description, photos.images))}
         <h6 className={`text-center color-1 mt-5 m-auto lh-base ${text_font.className}`} style={{maxWidth: '850px'}}>
             Created for:&nbsp;
