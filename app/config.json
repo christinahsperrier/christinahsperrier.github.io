@@ -1,6 +1,18 @@
 {
     "stories": {
         "editorial": [
+             {
+                "title": "Dua Lipa Is Hypnotic in Live Version of 'Houdini'",
+                "type": "CELEBRITY NEWS",
+                "image": "dualipa.png",
+                "link": "https://www.harpersbazaar.com/celebrity/latest/a46371735/dua-lipa-leather-hot-shorts-graphic-tee-houdini-live/"
+            },
+            {
+                "title": "Olivia Rodrigo Gets Vulnerable About 'GUTS' During Intimate NPR Tiny Desk Concert",
+                "type": "CELEBRITY NEWS",
+                "image": "oliviarodrigo.png",
+                "link": "https://www.harpersbazaar.com/culture/art-books-music/a46153473/olivia-rodrigo-guts-npr-tiny-desk-concert/"
+            },
             {
                 "title": "The Power of Community: Nic Altenderfer's Story",
                 "type": "PROFILE",
