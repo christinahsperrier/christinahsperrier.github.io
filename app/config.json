@@ -86,9 +86,15 @@
     "social_media": [
         {
             "title": "LUAG “What Matters Most”",
-            "type": "instagram story",
+            "type": "INSTAGRAM STORY",
             "image": "luag/thumbnail.png", 
             "media": "luag/WHAT_MATTERS_MOST_IG_STORY.pdf"
+        },
+        {
+            "title": "InPickleball “Pickleball's Golden Moment”",
+            "type": "INSTAGRAM POST",
+            "image": "IPB/thumbnail.jpg", 
+            "link": "https://www.instagram.com/p/Cymt0Dfg_Fp/"
         }
     ],
     "photography": [
