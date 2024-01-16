@@ -10,6 +10,7 @@ import MuckRack from "./MuckRack";
 // @ts-ignore
 import config from '../config.json'
 import { text_font } from '../fonts'
+import CopyTextInput from "./CopyTextInput";
 
 const roboto_mono = Roboto_Mono({
     subsets: ['latin'],
@@ -40,8 +41,8 @@ export default function HeaderOffcanvas(props){
                     {[
                         {"name": "Home", "link": "/", "icon": <HouseFill /> },
                         {"name": "About", "link": "/about", "icon": <InfoCircleFill /> },
-                        {"name": "Resume", "link": "/resume", "icon": <FileEarmarkPdfFill  /> },
                         {"name": "Writing", "link": "/portfolio/writing", "icon": <PenFill /> },
+                        {"name": "Resume", "link": "/resume", "icon": <FileEarmarkPdfFill  /> },
                         {"name": "Multimedia", "link": "/portfolio/multimedia", "icon": <CardImage /> },
                     ].map((val, i) => <>
                         <Nav.Item className="col-6" key={i}>
@@ -65,6 +66,10 @@ export default function HeaderOffcanvas(props){
                         </Nav.Item>
                     </>)}
                 </Nav>
+                {/* <hr /> */}
+                {/* <div className="py-2 w-75">
+                    <CopyTextInput border="dark" focus_ring="light" />
+                </div> */}
             </Offcanvas.Body>
         </Offcanvas>
     </>

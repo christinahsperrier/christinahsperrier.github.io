@@ -11,7 +11,7 @@ export default function About(){
         <div className="pt-3">
             <div className="row">
                 <div className="col col-12">
-                    <h1 className="display-4 color-1 text-center text-md-start mb-4">About Me</h1>
+                    <h1 className="display-4 color-1 text-center text-md-start mb-4">Just About</h1>
                 </div>
             </div>
             <div className="row">

@@ -50,18 +50,20 @@ const photography = (
 
 export default function Multimedia(){
     return <>
-        <h2 className="color-1 my-3 fw-bold">Social Media</h2>
-            <div className="portfolio-grid">
-                {config.social_media.map(social => social_media(social.title, social.type, social.image, social.media, social.link))}
-            </div>
-            <h2 className="color-1 my-3 mt-4 fw-bold">Photography</h2>
-            {config.photography.map(photos => photography(photos.title, photos.description, photos.images))}
-            <h6 className={`text-center color-1 mt-5 m-auto lh-base ${text_font.className}`} style={{maxWidth: '850px'}}>
-                Created for:&nbsp;
-                {config.multimedia_created_for.map((pub, i) => <>
-                    <a href={pub.link} target="_blank" rel="noopener noreferrer">{pub.pub}</a>
-                    {i !== config.multimedia_created_for.length - 1 ? <>,&nbsp; </> : ''}
-                </>)}
-            </h6>
+        <h2 className="color-1 mt-3 mb-1 fw-bold">Social Media</h2>
+        <h6 className={`mb-3 fw-normal ${text_font.className}`}>Selected Work</h6>
+        <div className="portfolio-grid">
+            {config.social_media.map(social => social_media(social.title, social.type, social.image, social.media, social.link))}
+        </div>
+        <h2 className="color-1 mt-3 mb-1 mt-4 fw-bold">Photography</h2>
+        <h6 className={`mb-3 fw-normal ${text_font.className}`}>{config.stories.editorial_subheader}</h6>
+        {config.photography.map(photos => photography(photos.title, photos.description, photos.images))}
+        <h6 className={`text-center color-1 mt-5 m-auto lh-base ${text_font.className}`} style={{maxWidth: '850px'}}>
+            Created for:&nbsp;
+            {config.multimedia_created_for.map((pub, i) => <>
+                <a href={pub.link} target="_blank" rel="noopener noreferrer">{pub.pub}</a>
+                {i !== config.multimedia_created_for.length - 1 ? <>,&nbsp; </> : ''}
+            </>)}
+        </h6>
     </>
 }

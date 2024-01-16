@@ -34,7 +34,8 @@ const card = (
 
 export default function Writing(){
     return <>
-        <h2 className="color-1 my-3 fw-bold">Editorial</h2>
+        <h2 className="color-1 mt-3 mb-1 fw-bold">Editorial</h2>
+        <h6 className={`mb-3 fw-normal ${text_font.className}`}>{config.stories.editorial_subheader}</h6>
         <div className="portfolio-grid">
             {config.stories.editorial.map(story => card(story.title, story.type, story.image, story.link))}
         </div>

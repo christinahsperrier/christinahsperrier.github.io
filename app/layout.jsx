@@ -126,7 +126,9 @@ export default function RootLayout({ children }) {
                 <div className="h4 text-primary">Contact</div>
                 <div className="row">
                   <div className="col">
-                    <CopyTextInput />
+                    <div className="px-2 px-sm-0">
+                      <CopyTextInput border="primary" focus_ring="primary" />
+                    </div>
                   </div>
                 </div>
               </div>
