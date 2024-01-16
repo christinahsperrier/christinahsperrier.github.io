@@ -44,7 +44,7 @@ export default function Writing(){
             {config.stories.academic.map(story => card(story.title, story.type, story.image, story.link))}
         </div>
         <h6 className={`text-center color-1 mt-5 m-auto lh-base gap-3 ${text_font.className}`} style={{maxWidth: '800px'}}>
-            <span className="fw-normal">Like my work? See more on my 
+            <span className="fw-normal">See more on  
             <a href="https://muckrack.com/christina_perrier" className="d-inline-block" target="_blank" rel="noopener noreferrer">&nbsp;Muck Rack</a>!</span>
             <br />
             <br />
