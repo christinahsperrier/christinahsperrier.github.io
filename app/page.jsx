@@ -21,7 +21,7 @@ export default function Home() {
           <a href="/portfolio/writing" className="w-fit-content my-3 mx-md-0">
             <button className="btn btn-outline-custom p-0">
               <h4 className="d-flex align-items-center m-0">
-                <span className="me-3 fw-bold">See My Work</span>
+                <span className="me-3 fw-bold">View Portfolio</span>
                 <ArrowRightCircleFill size={24} />
               </h4>
             </button>
