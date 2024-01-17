@@ -90,7 +90,7 @@
         "academic": [
             {
                 "title": "The Future of Rolling Stone and the Entertainment Magazine",
-                "type": "SENIOR THESIS",
+                "type": "THESIS",
                 "image": "rolling.png",
                 "link": "https://media.muckrack.com/portfolio/items/16413893/Future_of_Rolling_Stone_-_Christina_Perrier.pdf"
             }
@@ -234,5 +234,6 @@
     "email": "christinahsperrier@gmail.com",
     "name": "Christina Perrier",
     "resume_gdrive_id": "1J8Qv2Qu3zD-UzCTvhvDXJktECwBhyrex",
+    "GA4_code": "G-8EFGQFNVRN",
     "title": "Freelance Writer and Editor"
 }

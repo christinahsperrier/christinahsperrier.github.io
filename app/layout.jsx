@@ -24,15 +24,15 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      {/* <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA4_CODE}`} />
+      <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=${config.GA4_code}`} />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${process.env.GA4_CODE}');
+            gtag('config', '${config.GA4_code}');
         `}
-      </Script> */}
+      </Script>
       <body className={`${header_font.className} vh-100 d-flex flex-column pt-5`}>
         <header className={`navbar navbar-expand-${mobileBreakpoint} fixed-top`}>
           <nav className="container">
