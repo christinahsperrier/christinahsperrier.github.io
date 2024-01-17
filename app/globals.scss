@@ -227,3 +227,11 @@ pre{
 .carousel{
     max-width: 800px;
 }
+
+.recent-reads{
+    @include media-breakpoint-up(lg){
+        position: sticky;
+        // assuming header is ~80px (todo: finder a better solution)
+        top: calc(80px + 1.25rem);
+    }
+}

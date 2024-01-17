@@ -23,11 +23,13 @@ export default function About(){
                     <iframe style={{borderRadius: '12px'}} src={`https://open.spotify.com/embed/playlist/${config.spotify_playlist}?utm_source=generator&theme=0`} width="100%" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>
                 <div className="col col-12 col-lg-3">
-                    <h2 className={`mb-3 mt-3 mt-lg-0 h5 ${header_font.className}`}>
-                        <Book size={28} className="mb-1" />
-                        <span className={`px-2 fw-normal`}>Recent Reads</span>
-                    </h2>
-                    <BookCarousel books={config.books} />
+                    <div className={config.sticky_books ? 'recent-reads' : ''}>
+                        <h2 className={`mb-3 mt-3 mt-lg-0 h5 ${header_font.className}`}>
+                            <Book size={28} className="mb-1" />
+                            <span className={`px-2 fw-normal`}>Recent Reads</span>
+                        </h2>
+                        <BookCarousel books={config.books} />
+                    </div>
                 </div>
             </div>
         </div>
