@@ -12,9 +12,25 @@ import PortfolioDropdown from './components/PortfolioDropdown'
 import config from './config.json'
 import { header_font, text_font } from './fonts'
 
+const page_title = `${config.name} - Portfolio Website`
+const page_description = config.meta_description
+const keywords = config.meta_keywords.split(',')
+
 export const metadata = {
-  title: 'Christina Perrier - Portfolio Website',
-  description: '',
+  title: page_title,
+  description: page_description,
+  keywords: keywords,
+  openGraph: {
+    title: page_title,
+    description: page_description,
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: page_title,
+    description: page_description
+  }
 }
 
 export default function RootLayout({ children }) {
