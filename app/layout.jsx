@@ -19,10 +19,12 @@ const keywords = config.meta_keywords.split(',')
 export const metadata = {
   title: page_title,
   description: page_description,
+  metadataBase: new URL(process.env.METADATA_BASE),
   keywords: keywords,
   openGraph: {
     title: page_title,
     description: page_description,
+    url: process.env.METADATA_BASE,
     locale: 'en_US',
     type: 'website'
   },
