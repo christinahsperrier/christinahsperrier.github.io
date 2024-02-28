@@ -1,7 +1,13 @@
 {
     "stories": {
         "editorial": [
-             {
+            {
+                "title": "New York City's Social Media Public Safety Hazard Declaration, Explained",
+                "type": "NEWS",
+                "image": "socialmedia.png",
+                "link": "https://www.harpersbazaar.com/culture/politics/a46683742/new-york-city-social-media-public-safety-hazard-declaration-explained/"
+            },
+            {
                 "title": "Dua Lipa Is Hypnotic in Live Version of 'Houdini'",
                 "type": "CELEBRITY NEWS",
                 "image": "dualipa.png",
