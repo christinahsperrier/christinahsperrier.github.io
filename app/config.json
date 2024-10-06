@@ -1,6 +1,18 @@
 {
     "stories": {
         "editorial": [
+              {
+                "title": "Horror's Final Girls Are Finally Winning",
+                "type": "CULTURE FEATURE",
+                "image": "horror-adjusted.webp",
+                "link": "https://www.instyle.com/horror-is-the-it-girl-genre-8700262"
+            },
+              {
+                "title": "Tate McRae Is Pop Music's Biggest Stan",
+                "type": "CELEBRITY INTERVIEW",
+                "image": "tate-adjusted.webp",
+                "link": "https://www.instyle.com/tate-mcrae-think-later-pop-music-confidence-8678062"
+            },
             {
                 "title": "Planned Parenthood’s “We Decide” T-Shirts Make Activism Look Stylish",
                 "type": "NEWS",
@@ -12,18 +24,6 @@
                 "type": "CELEBRITY INTERVIEW",
                 "image": "brooke-shields-adjusted.webp",
                 "link": "https://www.instyle.com/brooke-shields-50-aging-quotes-8715198"
-            },
-            {
-                "title": "Tate McRae Is Pop Music's Biggest Stan",
-                "type": "CELEBRITY INTERVIEW",
-                "image": "tate-adjusted.webp",
-                "link": "https://www.instyle.com/tate-mcrae-think-later-pop-music-confidence-8678062"
-            },
-            {
-                "title": "Horror's Final Girls Are Finally Winning",
-                "type": "CULTURE FEATURE",
-                "image": "horror-adjusted.webp",
-                "link": "https://www.instyle.com/horror-is-the-it-girl-genre-8700262"
             },
             {
                 "title": "New York City's Social Media Public Safety Hazard Declaration, Explained",
