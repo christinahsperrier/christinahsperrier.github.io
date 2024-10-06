@@ -128,6 +128,18 @@
     },
     "social_media": [
         {
+            "title": "'The Mask' 30th Anniversary",
+            "type": "INSTAGRAM POST",
+            "image": "mask/the-mask-adjusted.jpg", 
+            "media": "https://www.instagram.com/p/C-BNfwnP_Y7/?img_index=1"
+        },
+        {
+            "title": "Princess Diana Backup Wedding Dress",
+            "type": "INSTAGRAM POST",
+            "image": "diana/diana-adjusted.jpg", 
+            "link": "https://www.instagram.com/instylemagazine/reel/C7XM7H_up9a/?hl=af"
+        },
+        {
             "title": "LUAG “What Matters Most”",
             "type": "INSTAGRAM STORY",
             "image": "luag/thumbnail.png", 
