@@ -2,10 +2,40 @@
     "stories": {
         "editorial": [
               {
+                "title": "Everyone Wants to Be In 'The White Lotus,' But Do They Have the Right Vibes?",
+                "type": "CULTURE FEATURE",
+                "image": "whitelotus.jpg",
+                "link": "https://www.instyle.com/white-lotus-casting-process-what-makes-an-actor-right-for-the-role-11699536"
+            },
+            {
                 "title": "Horror's Final Girls Are Finally Winning",
                 "type": "CULTURE FEATURE",
                 "image": "horror-adjusted.webp",
                 "link": "https://www.instyle.com/horror-is-the-it-girl-genre-8700262"
+            },
+             {
+                "title": "Booking for Love?",
+                "type": "LIFESTYLE FEATURE",
+                "image": "booking.jpg",
+                "link": "https://www.instyle.com/singles-dating-book-bars-reading-parties-11682981"
+            },
+            {
+                "title": "Michelle Monaghan on Her Glowy Skin Secret, ‘White Lotus’ Drama, and the Jaw-Dropping Finale",
+                "type": "CELEBRITY INTERVIEW",
+                "image": "michelle.jpg",
+                "link": "https://www.instyle.com/michelle-monaghan-white-lotus-jaclyn-u-beauty-11699834"
+            },
+             {
+                "title": "Dove Cameron, Former Sad Girl, Has Reclaimed Her Joy",
+                "type": "CELEBRITY INTERVIEW",
+                "image": "dove.jpg",
+                "link": "https://www.instyle.com/dove-cameron-new-album-song-too-much-interview-11698009"
+            },
+             {
+                "title": "How News Anchor Hallie Jackson Prepares for NBC's 24-Hour Election Coverage",
+                "type": "FEATURE",
+                "image": "halliegram.jpg",
+                "link": "https://www.instyle.com/hallie-jackson-election-night-2024-nbc-preparation-8739101"
             },
               {
                 "title": "Tate McRae Is Pop Music's Biggest Stan",
