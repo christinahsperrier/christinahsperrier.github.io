@@ -1,17 +1,35 @@
 {
     "stories": {
         "editorial": [
-              {
-                "title": "Everyone Wants to Be In 'The White Lotus,' But Do They Have the Right Vibes?",
-                "type": "CULTURE FEATURE",
-                "image": "whitelotus.jpg",
-                "link": "https://www.instyle.com/white-lotus-casting-process-what-makes-an-actor-right-for-the-role-11699536"
+            {
+                "title": "I’m Bored of My Long Hair—But Cutting It Feels Like Losing Something Deeper",
+                "type": "BEAUTY FEATURE",
+                "image": "hair.jpg",
+                "link": "https://www.instyle.com/emotional-attachment-long-hair-embrace-identity-haircut-11881224"
+            },
+            {
+                "title": "Finneas and Ashe Started The Favors in Secret—Allow Them to Charm You With 'The Dream'",
+                "type": "MUSIC FEATURE",
+                "image": "favors.jpg",
+                "link": "https://www.instyle.com/finneas-ashe-band-the-favors-new-band-music-11828204"
             },
             {
                 "title": "Horror's Final Girls Are Finally Winning",
                 "type": "CULTURE FEATURE",
                 "image": "horror-adjusted.webp",
                 "link": "https://www.instyle.com/horror-is-the-it-girl-genre-8700262"
+            },
+            {
+                "title": "Everyone Wants to Be In 'The White Lotus,' But Do They Have the Right Vibes?",
+                "type": "CULTURE FEATURE",
+                "image": "whitelotus.jpg",
+                "link": "https://www.instyle.com/white-lotus-casting-process-what-makes-an-actor-right-for-the-role-11699536"
+            },
+              {
+                "title": "I Can’t Stop Thinking About Julia Roberts’s Plunging White Power Suit in ‘After the Hunt’",
+                "type": "FASHION FEATURE",
+                "image": "afterthehunt.jpg",
+                "link": "https://www.instyle.com/julia-roberts-white-suit-after-the-hunt-11829847"
             },
              {
                 "title": "Booking for Love?",
@@ -54,6 +72,18 @@
             "type": "INSTAGRAM POST",
             "image": "diana/diana-adjusted.jpg", 
             "link": "https://www.instagram.com/instylemagazine/reel/C7XM7H_up9a/?hl=af"
+        },
+        {
+            "title": "Nina Dobrev InStyle Files",
+            "type": "SOCIAL INTERVIEW",
+            "image": "nina.jpg", 
+            "link": "https://www.tiktok.com/@instyle/video/7573715915301309726"
+        },
+        {
+            "title": "Michelle Monaghan InStyle Files",
+            "type": "SOCIAL INTERVIEW",
+            "image": "michelle.jpg", 
+            "link": "https://www.tiktok.com/@instyle/video/7483988028122271018?lang=en"
         }
     ],
     "appears_in": [
