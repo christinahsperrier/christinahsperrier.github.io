@@ -41,8 +41,8 @@ export default function HeaderOffcanvas(props){
                     {[
                         {"name": "Home", "link": "/", "icon": <HouseFill /> },
                         {"name": "About", "link": "/about", "icon": <InfoCircleFill /> },
+                        {"name": "Resume", "link": "/resume", "icon": <FileEarmarkPdfFill  /> },
                         {"name": "Portfolio", "link": "/portfolio", "icon": <PenFill /> },
-                        {"name": "Multimedia", "link": "/portfolio/multimedia", "icon": <CardImage /> },
                     ].map((val, i) => <>
                         <Nav.Item className="col-6" key={i}>
                             <Nav.Link as={Link} href={val.link} className="d-inline-flex align-items-center gap-2 px-0 text-reset fw-normal" onClick={handleClose}>
