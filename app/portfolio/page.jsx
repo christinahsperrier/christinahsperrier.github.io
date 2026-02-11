@@ -1,4 +1,4 @@
-/ @ts-ignore
+// @ts-ignore
 import config from '../config.json'
 import { text_font } from '../fonts'
 
