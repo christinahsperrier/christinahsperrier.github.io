@@ -95,41 +95,17 @@
             "pub": "Harper's Bazaar",
             "link": "https://www.harpersbazaar.com/author/276613/christina-perrier/"
         },
+          {
+            "pub": "Emory Business",
+            "link": "https://www.emorybusiness.com/author/christina-perrier/"
+        },
         {
             "pub": "The Brown and White",
             "link": "https://thebrownandwhite.com/author/csp223/"
         },
         {
-            "pub": "Emory Business",
-            "link": "https://www.emorybusiness.com/author/christina-perrier/"
-        },
-        {
-            "pub": "The Fit Magazine",
-            "link": "https://thefitmagazine.com/author/christinaperrier/"
-        },
-        {
-            "pub": "The NewsHouse",
-            "link": "https://www.thenewshouse.com/"
-        },
-        {
             "pub": "Lehigh News",
-            "link": "https://www2.lehigh.edu/news"
-        },
-        {
-            "pub": "Lehigh Alumni Relations",
-            "link": "https://alumni.lehigh.edu/faces-lehigh"
-        },
-        {
-            "pub": "Don't Count Us Out Yet",
-            "link": "https://substack.com/profile/107867121-christina-perrier"
-        },
-        {
-            "pub": "The Floating Hospital",
-            "link": "https://www.thefloatinghospital.org/news-and-events/newsletter-archive/"
-        },
-        {
-            "pub": "New York Junior Tennis and Learning",
-            "link": "https://www.nyjtl.org/media/news/"
+            "link": "https://blog.lehigh.edu/author/319"
         }
     ],
     "about": {
