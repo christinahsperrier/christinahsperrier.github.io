@@ -26,70 +26,10 @@
                 "link": "https://www.instyle.com/michelle-monaghan-white-lotus-jaclyn-u-beauty-11699834"
             },
              {
-                "title": "Dove Cameron, Former Sad Girl, Has Reclaimed Her Joy",
-                "type": "CELEBRITY INTERVIEW",
-                "image": "dove.jpg",
-                "link": "https://www.instyle.com/dove-cameron-new-album-song-too-much-interview-11698009"
-            },
-             {
                 "title": "Beyond Heritage: 7 Filipino Designers Building Community Through Fashion",
                 "type": "FASHION FEATURE",
                 "image": "filipino.jpg",
                 "link": "https://www.instyle.com/filipino-fashion-designers-8731861"
-            },
-              {
-                "title": "Annie Wu Henry Knows Exactly How to Get Gen Z to Vote: Memes",
-                "type": "FEATURE",
-                "image": "anniewu.jpg",
-                "link": "https://www.instyle.com/annie-wu-henry-gen-z-politics-social-media-8679319"
-            },
-             {
-                "title": "How News Anchor Hallie Jackson Prepares for NBC's 24-Hour Election Coverage",
-                "type": "FEATURE",
-                "image": "halliegram.jpg",
-                "link": "https://www.instyle.com/hallie-jackson-election-night-2024-nbc-preparation-8739101"
-            },
-              {
-                "title": "Tate McRae Is Pop Music's Biggest Stan",
-                "type": "CELEBRITY INTERVIEW",
-                "image": "tate-adjusted.webp",
-                "link": "https://www.instyle.com/tate-mcrae-think-later-pop-music-confidence-8678062"
-            },
-            {
-                "title": "New York City's Social Media Public Safety Hazard Declaration, Explained",
-                "type": "NEWS",
-                "image": "socialmedia.png",
-                "link": "https://www.harpersbazaar.com/culture/politics/a46683742/new-york-city-social-media-public-safety-hazard-declaration-explained/"
-            },
-            {
-                "title": "The Power of Community: Nic Altenderfer's Story",
-                "type": "PROFILE",
-                "image": "NicAltenderfer.png",
-                "link": "https://www2.lehigh.edu/news/the-power-of-community-a-lehigh-student-suffers-a-skateboarding-head-injury-and-his-sigma-phi"
-            },
-            {
-                "title": "Lit Coffee Roastery and Bakeshop: A South Side community hub",
-                "type": "COMMUNITY BUSINESS FEATURE",
-                "image": "lit.png",
-                "link": "https://thebrownandwhite.com/2022/03/09/lit-a-southside-community-hub/"
-            },
-            {
-                "title": "From the Editor's Desk: Nothing groundbreaking",
-                "type": "OPINION",
-                "image": "desk.png",
-                "link": "https://thebrownandwhite.com/2023/05/09/nothing-groundbreaking/"
-            },
-            {
-                "title": "Onondaga County sees rise in substance abuse, mental health crises",
-                "type": "NEWS FEATURE",
-                "image": "Onondaga.png",
-                "link": "https://www.thenewshouse.com/off-campus/onondaga-county-sees-rise-in-substance-abuse-mental-health-crises/"
-            },
-            {
-                "title": "Lehigh alumna's firsthand account of the Russo-Ukrainian War",
-                "type": "NEWS AS-TOLD-TO",
-                "image": "ukraine.png",
-                "link": "https://thebrownandwhite.com/2022/04/30/alumna-gives-firsthand-account-of-war-in-ukraine/"
             }
         ],
         "editorial_subheader": "Selected Clips",
@@ -107,79 +47,13 @@
             "title": "'The Mask' 30th Anniversary",
             "type": "INSTAGRAM POST",
             "image": "mask/the-mask-adjusted.jpg", 
-            "media": "https://www.instagram.com/instylemagazine/p/C-BNfwnP_Y7/?img_index=1"
+            "link": "https://www.instagram.com/instylemagazine/p/C-BNfwnP_Y7/?img_index=1"
         },
         {
             "title": "Princess Diana Backup Wedding Dress",
             "type": "INSTAGRAM POST",
             "image": "diana/diana-adjusted.jpg", 
             "link": "https://www.instagram.com/instylemagazine/reel/C7XM7H_up9a/?hl=af"
-        },
-        {
-            "title": "LUAG “What Matters Most”",
-            "type": "INSTAGRAM STORY",
-            "image": "luag/thumbnail.png", 
-            "media": "luag/WHAT_MATTERS_MOST_IG_STORY.pdf"
-        },
-        {
-            "title": "InPickleball “Pickleball's Golden Moment”",
-            "type": "INSTAGRAM POST",
-            "image": "IPB/thumbnail.jpg", 
-            "link": "https://www.instagram.com/p/Cymt0Dfg_Fp/"
-        }
-    ],
-    "photography": [
-        {
-            "title": "COIN, REBECCA BLACK CONCERT",
-            "description": "COIN headlined Lehigh University Productions' QUEST 2023 Spring Concert on April 22, 2023, in Stabler Area. Rebecca Black was the opening act.",
-            "images": [
-                "coin/4.JPG",
-                "coin/2.JPG",
-                "coin/3.JPG",
-                "coin/1.JPG"
-            ]
-        },
-        {
-            "title": "STUDENT WEIGHTLIFTER JOSS DUFF",
-            "description": "Lehigh student Joss Duff, '23, balanced a rigorous college course load with a disciplined passion for weightlifting.",
-            "images": [
-                "joss/4.JPG",
-                "joss/1.JPG",
-                "joss/2.JPG",
-                "joss/3.JPG"
-            ]
-        },
-        {
-            "title": "LIFE AT LEHIGH",
-            "description": "The Lehigh University Center, which houses a retail dining store and dining hall, closed for renovations in spring 2023. Its construction led to long lines and wait times at the other limited campus dining options and obstructed some students' path to and from class.",
-            "images": [
-                "lehigh/1.JPG",
-                "lehigh/2.JPG",
-                "lehigh/3.JPG",
-                "lehigh/4.JPG"
-            ]
-        }
-    ],
-    "multimedia_created_for": [
-        {
-            "pub": "InStyle",
-            "link": "https://www.instagram.com/instylemagazine/"
-        },
-        {
-            "pub": "Lehigh University",
-            "link": "https://www.instagram.com/lehighu/?hl=en"
-        },
-        {
-            "pub": "The Brown and White",
-            "link": "https://thebrownandwhite.com/"
-        },
-        {
-            "pub": "New York Junior Tennis and Learning",
-            "link": "https://www.instagram.com/nyjtl/"
-        },
-        {
-            "pub": "InPickleball Magazine",
-            "link": "https://www.instagram.com/inpickleball/"
         }
     ],
     "appears_in": [
