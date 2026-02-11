@@ -63,6 +63,7 @@ const card = (
 
 export default function Portfolio(){
     return <>
+        <h1 className="display-4 color-1 text-center text-md-start mb-4">Portfolio</h1>
         <h2 className="color-1 mt-3 mb-1 fw-bold">Editorial</h2>
         <h6 className={`mb-3 fw-normal ${text_font.className}`}>{config.stories.editorial_subheader}</h6>
         <div className="portfolio-grid">
