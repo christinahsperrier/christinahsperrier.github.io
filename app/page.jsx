@@ -28,7 +28,7 @@ export default function Home() {
           </a>
         </div>
         <div className="d-flex justify-content-center align-items-start col col-lg-5 col-xl-5">
-          <img src="/headshot.jpg" alt={'Christina Perrier Headshot'} className="position-relative w-100 rounded mb-3" />
+          <img src={config.headshot} alt={'Christina Perrier Headshot'} className="position-relative w-100 rounded mb-3" />
         </div>
       </div>
     </div>
