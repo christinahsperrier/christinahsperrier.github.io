@@ -7,7 +7,6 @@ import Link from 'next/link'
 import CopyTextInput from './components/CopyTextInput'
 import HeaderLink from './components/HeaderLink'
 import HeaderOffcanvas from './components/HeaderOffcanvas'
-import PortfolioDropdown from './components/PortfolioDropdown'
 // @ts-ignore
 import config from './config.json'
 import { header_font, text_font } from './fonts'
@@ -59,7 +58,9 @@ export default function RootLayout({ children }) {
             </Link>
             <div className={`d-none d-${mobileBreakpoint}-block navbar-collapse`}>
               <ul className="navbar-nav">
-                <PortfolioDropdown />
+                <li className="nav-item">
+                  <HeaderLink label="Portfolio" route="/portfolio" />
+                </li>
                 <li className="nav-item">
                   <HeaderLink label="About" route="/about" />
                 </li>
