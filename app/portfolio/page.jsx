@@ -1,6 +1,6 @@
-// @ts-ignore
-import config from '../../config.json'
-import { text_font } from '../../fonts'
+/ @ts-ignore
+import config from '../config.json'
+import { text_font } from '../fonts'
 
 const social_media = (
     title,
@@ -61,7 +61,7 @@ const card = (
     </>
 }
 
-export default function Writing(){
+export default function Portfolio(){
     return <>
         <h2 className="color-1 mt-3 mb-1 fw-bold">Editorial</h2>
         <h6 className={`mb-3 fw-normal ${text_font.className}`}>{config.stories.editorial_subheader}</h6>

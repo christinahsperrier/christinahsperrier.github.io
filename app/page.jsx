@@ -18,7 +18,7 @@ export default function Home() {
             {i !== config.homepage_titles.length - 1 ? ',' : '.'}
             </h3>
           </>)}
-          <a href="/portfolio/writing" className="w-fit-content my-3 mx-md-0">
+          <a href="/portfolio" className="w-fit-content my-3 mx-md-0">
             <button className="btn btn-outline-custom p-0">
               <h4 className="d-flex align-items-center m-0">
                 <span className="me-3 fw-bold">View Portfolio</span>

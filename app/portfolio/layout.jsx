@@ -1,16 +1,6 @@
-import HeaderLink from "@/components/HeaderLink";
-import Link from "next/link";
-
 export default function PortfolioLayout({ children }){
     return <>
-        <ul className="nav nav-underline" id="myTab" role="tablist">
-            <li className="nav-item" role="presentation">
-                <HeaderLink label="Writing" route="/portfolio/writing" classes="tab-item" />
-            </li>
-            <li className="nav-item" role="presentation">
-                <HeaderLink label="Multimedia" route="/portfolio/multimedia" classes="tab-item" />
-            </li>
-        </ul>
+        <h1 className="display-4 color-1 text-center text-md-start mb-4">Portfolio</h1>
         {children}
     </>
 }

@@ -7,7 +7,6 @@ import Link from 'next/link'
 import CopyTextInput from './components/CopyTextInput'
 import HeaderLink from './components/HeaderLink'
 import HeaderOffcanvas from './components/HeaderOffcanvas'
-import PortfolioDropdown from './components/PortfolioDropdown'
 // @ts-ignore
 import config from './config.json'
 import { header_font, text_font } from './fonts'
@@ -59,7 +58,9 @@ export default function RootLayout({ children }) {
             </Link>
             <div className={`d-none d-${mobileBreakpoint}-block navbar-collapse`}>
               <ul className="navbar-nav">
-                <PortfolioDropdown />
+                <li className="nav-item">
+                  <HeaderLink label="Portfolio" route="/portfolio" />
+                </li>
                 <li className="nav-item">
                   <HeaderLink label="About" route="/about" />
                 </li>
@@ -121,8 +122,7 @@ export default function RootLayout({ children }) {
                     <span className="d-flex"><Link href="/about" className="text-black fw-light d-inline-flex" tabIndex={0} role="link" aria-label="About">About</Link></span>
                   </div>
                   <div className="col col-6 gap-2 d-flex flex-column">
-                    <span className="d-flex"><Link href="/portfolio/writing" className="text-black fw-light d-inline-flex" tabIndex={0} role="link" aria-label="Projects">Writing</Link></span>
-                    <span className="d-flex"><Link href="/portfolio/multimedia" className="text-black fw-light d-inline-flex" tabIndex={0} role="link" aria-label="Resume">Multimedia</Link></span>
+                    <span className="d-flex"><Link href="/portfolio" className="text-black fw-light d-inline-flex" tabIndex={0} role="link" aria-label="Projects">Portfolio</Link></span>
                   </div>
                 </div>
               </div>

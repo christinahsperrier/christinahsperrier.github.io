@@ -15,13 +15,7 @@ export default function sitemap() {
             priority:1,
         },
         {
-            url: `https://${domain}/portfolio/writing/`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 1,
-        },
-        {
-            url: `https://${domain}/portfolio/multimedia/`,
+            url: `https://${domain}/portfolio/`,
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 1,
