@@ -79,17 +79,15 @@ export default function Portfolio(){
             {config.stories.academic.map(story => card(story.title, story.type, story.image, story.link))}
         </div>
         <h6 className={`text-center color-1 mt-5 m-auto lh-base gap-3 ${text_font.className}`} style={{maxWidth: '800px'}}>
-            <span className="fw-normal">See more on  
-            <a href="https://muckrack.com/christina_perrier" className="d-inline-block" target="_blank" rel="noopener noreferrer">&nbsp;Muck Rack</a>!</span>
-            <br />
-            <br />
             <span>Appears in:</span>&nbsp;
             {config.appears_in.map((pub, i) => <>
                 <a href={pub.link} target="_blank" rel="noopener noreferrer">
-                    {pub.pub}
-                </a>
-                {i !== config.appears_in.length - 1 ? <>,&nbsp; </> : ''}
+                    <i>{pub.pub}</i>
+                </a>,{' '}
             </>)}
+            {' '}
+            <span className="fw-normal">and more on{' '}
+            <a href="https://muckrack.com/christina_perrier" className="d-inline-block" target="_blank" rel="noopener noreferrer">Muck Rack</a>!</span>
         </h6>
     </>
 }
